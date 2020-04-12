@@ -1,0 +1,110 @@
+body{
+    /*background-color: lavenderblush;*/
+    background-color: #393e46;
+}
+.topnavbar{
+    z-index: 100;
+}
+.secondnavbar{
+    z-index: 100;
+}
+
+#pd .row1{
+    position: relative;
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+    width: 100%;
+    height: 37.5rem;;
+}
+.product-det .grid-pic{
+    width: 100%;
+    height: auto;
+}
+.grid-pic .img1{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+.product-det .pic-1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.product-det-val{
+    position: absolute;
+    display: inline-block;
+    padding: 2rem;
+    width: 100%;
+    height: 37.5rem;
+    background-color: white;
+}
+.clr{
+    float: left;
+}
+.cart-heart{
+    padding: 0.5rem;
+    display: inline-block;
+}
+.cart-heart button{
+    width: 10rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color:#ff2e63; 
+    color: white;
+}
+.cart-heart button:hover{
+    background-color: lavenderblush;
+    color: black;
+    font-weight: bold;
+}
+.per{
+    text-align: center;
+    font-size: 1rem;
+}
+.size{
+    top: 1rem;
+    padding: 1rem;
+    display: inline-block;
+}
+.size button{
+    border: 1px solid gray;
+}
+.size button:hover{
+    background-color: #393e46;
+    color: white;
+}
+.qty{
+    padding: 1rem;
+    display: inline-block;
+}
+.size-qty{
+    display: inline-block;
+}
+.qty input{
+    width: 5rem;
+}
+.qty input:hover{
+    background-color: lavenderblush;
+}
+hr{
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-pic {
+        width: 100%;
+        display: flex;
+    }
+    .pic-1 {
+        flex: 50%;
+        width: 100%;
+        height: auto;
+    }
+    .product-det-val{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+  }
