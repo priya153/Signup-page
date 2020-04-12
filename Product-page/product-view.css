@@ -159,8 +159,8 @@ body{
   .rating > input:checked ~ label:hover ~ label { color: #ffb6b6;  } 
 
   @media screen and (max-width: 600px) {
-    .product-grid {
-        flex: 100%;
+    .prod-grid {
+        display: inline-flexbox;
         max-width: 100%;
     }
   }
