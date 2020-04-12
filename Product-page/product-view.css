@@ -11,8 +11,20 @@ body{
 .product-grid{
     position: relative;
     margin-top: 120px;
+    padding: 10px;
 }
-
+.price{
+    color: white;
+}
+.product-grid:hover{
+    background-color: lavenderblush;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+}
+.product-grid:hover .price{
+    color: #393e46;
+    font-weight: bold;
+}
 .product-grid .product-img{
     position: relative;
     padding: 20px;
